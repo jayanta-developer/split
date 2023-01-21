@@ -2,6 +2,72 @@
 <html lang="en">
 
 <head>
+  <style>
+    .contaner {
+      padding: 100px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .co_logo h1 {
+      color: rgba(235, 110, 27, 0.884);
+    }
+
+    .subHeader {
+      padding: 0px 50px 50px 0px;
+
+    }
+
+    .info_box {
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      padding: 0px 50px 50px 0px;
+      height: 150px;
+    }
+
+    .subInfoBox {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .subInfo1 {
+      width: 60%;
+    }
+
+    .body_table {
+      padding: 0px 50px 50px 0px;
+    }
+
+    .headerRow {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .headerItems {
+      border: 1px solid wheat;
+      width: 180px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(235, 110, 27, 0.884);
+      color: #ffff;
+    }
+
+    .itemsRow {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .tableItems {
+      border: 1px solid wheat;
+      width: 180px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +76,49 @@
 
 <body>
   <div class="contaner">
-    <div class="co_logo"></div>
-    <div class="subHeader"></div>
-    <div class="info_box"></div>
-    <div class="body_table"></div>
+    <div class="co_logo"><img src="" alt="">
+      <h1>LOGO</h1>
+    </div>
+    <div class="subHeader">
+      <i>PAY WITH SPLIT SDN. BHD. 201901012836 (1322164-H)<br>
+        PAY WITH SPLIT PTE. LTD. 201815337K</i>
+    </div>
+    <div class="info_box">
+      <h1>Split Statement for techbug.my
+      </h1>
+      <div class="subInfoBox">
+        <div class="subInfo1">
+          <h3>Statement Reference No:</h3>
+          <h3>Date:</h3>
+        </div>
+        <div class="subInfo2">
+          <h3>TBMY1672134224
+          </h3>
+          <h3>19-12-2022 - 25-12-2022</h3>
+        </div>
+      </div>
+    </div>
+    <div class="body_table">
+      <h1>Summary of MYR Orders</h1>
+      <div class="table">
+        <div class="headerRow">
+          <div class="headerItems">No of Orders </div>
+          <div class="headerItems">Total Order Value</div>
+          <div class="headerItems">Split MDR</div>
+          <div class="headerItems">Fixed Fee </div>
+          <div class="headerItems">Amount Payable</div>
+          <div class="headerItems">Refunds</div>
+        </div>
+        <div class="itemsRow">
+          <div class="tableItems">4</div>
+          <div class="tableItems">MYR 10268.83</div>
+          <div class="tableItems">MYR 248.93</div>
+          <div class="tableItems">MYR 0.00</div>
+          <div class="tableItems">MYR 10019.90</div>
+          <div class="tableItems">MYR 0.00</div>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 
